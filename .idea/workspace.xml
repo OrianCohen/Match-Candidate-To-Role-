@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3fdfa115-f3fb-44fa-a0df-a547a8b31f3e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/REDME.md" beforeDir="false" afterPath="$PROJECT_DIR$/REDME.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases_schema/candidates_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/databases_schema/candidates_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases_schema/jobs_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/databases_schema/jobs_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/databases_schema/skills_schema.py" beforeDir="false" afterPath="$PROJECT_DIR$/databases_schema/skills_schema.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datasets/candidate.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/candidate.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datasets/jobs.json" beforeDir="false" afterPath="$PROJECT_DIR$/datasets/jobs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/persistence_candidates.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/persistence_candidates.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/persistence_jobs.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/persistence_jobs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/persistence_skills.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/persistence_skills.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/matcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/matcher.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

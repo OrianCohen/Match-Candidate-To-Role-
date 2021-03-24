@@ -1,6 +1,6 @@
 {
   "Jobs": [
-    {"id":  1, "company_name": "Gloat", "title": "Software Developer","skills":  "C++", "PHP"},
+    {"id":  1, "company_name": "Gloat", "title": "Software Developer","skills":  ["C++", "PHP"]},
     {"id":  2, "company_name": "Gloat","title": "Python Developer","skills":  ["JAVA","Python","Creativity"]},
     {"id":  3, "company_name": "Gloat","title": "Junior Python Developer","skills": ["JAVA", "PYTHON" , "FLASK", "MACHINE LEARNING"]},
     {"id":  4, "company_name": "Gloat","title": "Junior Java Developer","skills":  ["JAVA", "SQL"]},
