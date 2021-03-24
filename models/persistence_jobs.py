@@ -2,7 +2,7 @@ import jaydebeapi
 from databases_schema.jobs_schema import JobsSchema
 
 
-# Create the candidate table, will be executes before our api starts
+# Create the jobs table, will be executes before our app start
 def initialize():
     _execute(("CREATE TABLE IF NOT EXISTS jobs ("
               "  id INT PRIMARY KEY AUTO_INCREMENT,"
@@ -35,7 +35,7 @@ def _convert_to_schema(cursor):
     column_names = [record[0].lower() for record in cursor.description]
     column_and_values = [dict(zip(column_names, record)) for record in cursor.fetchall()]
 
-    # takes the merged result and converts them to ExoplanetSchema objects that Flask can further process.
+    # takes the merged result and converts them to JobsSchema objects that Flask can further process.
     return JobsSchema().load(column_and_values, many=True)
 
 

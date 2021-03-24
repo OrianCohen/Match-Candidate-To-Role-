@@ -1,7 +1,7 @@
 from marshmallow import Schema, fields, EXCLUDE
 
 
-# Represent products schema database
+# Represent Candidate schema database
 class CandidatesSchema(Schema):
     id = fields.Integer(allow_none=True)
     name = fields.Str(required=True, error_messages={"required": "A candidate needs at least a name"})

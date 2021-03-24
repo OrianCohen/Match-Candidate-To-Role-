@@ -2,6 +2,7 @@ from models import persistence_candidates, persistence_jobs
 import json
 
 
+# TODO check for the most match candidate
 def candidate_finder_db(job_title):
     get_job_skills = persistence_jobs.get(job_title)
     get_candidate_list = persistence_candidates.get(job_title)
@@ -29,11 +30,11 @@ def candidate_finder_json(job_title):
                 max_skills = int(0)
                 for x in names:
                     if len(x['skills']) >= max_skills:
-                        max_skills =max_skills+ 1
+                        max_skills = max_skills + 1
                         elemnt_end_dta = x
                         print(elemnt_end_dta)
                 return elemnt_end_dta
             else:
                 return names
 
-        return 'NO DETAILS MATCH'
+        return ' '

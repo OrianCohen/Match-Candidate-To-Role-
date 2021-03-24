@@ -5,11 +5,12 @@ from utils.matcher import candidate_finder_json
 app = Flask(__name__)
 
 
+# TODO need to fix JAVA_HOME argument not found
 # @app.before_first_request
 # def initialize_database():
-# persistence_skills.initialize()
-# persistence_jobs.initialize()
-#   persistence_candidates.initialize()
+    # persistence_skills.initialize()
+    # persistence_jobs.initialize()
+    # persistence_candidates.initialize()
 
 @app.route('/')
 def initial():

@@ -1,7 +1,7 @@
 from marshmallow import Schema, fields, EXCLUDE
 
 
-# Represent products schema database
+# Represent Jobs schema database
 class JobsSchema(Schema):
     id = fields.Integer(allow_none=True)
     company_name = fields.Str(required=True, error_messages={"required": "A jobs needs at least a company name"})

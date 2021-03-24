@@ -2,7 +2,7 @@ import jaydebeapi
 from databases_schema.skills_schema import SkillsSchema
 
 
-# Create the candidate table, will be executes before our api starts
+# Create the candidate table, will be executes before our app start
 def initialize():
     _execute(("CREATE TABLE IF NOT EXISTS skills ("
               "  id INT PRIMARY KEY AUTO_INCREMENT,"
@@ -33,18 +33,13 @@ def _convert_to_schema(cursor):
     column_names = [record[0].lower() for record in cursor.description]
     column_and_values = [dict(zip(column_names, record)) for record in cursor.fetchall()]
 
-    # takes the merged result and converts them to ExoplanetSchema objects that Flask can further process.
+    # takes the merged result and converts them to SkillsSchema objects that Flask can further process.
     return SkillsSchema().load(column_and_values, many=True)
 
 
 # database functions:
 
-#Get a list of all products in products table
+#Get a list of all skills
 def get_all():
     return _execute("SELECT * FROM skills", return_result=True)
-
-
-#Get a product by id
-def get(name):
-    return _execute("SELECT * FROM skills WHERE skill_name = {}".format(name), return_result=True)
 
