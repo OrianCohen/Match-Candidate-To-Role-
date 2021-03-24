@@ -1,0 +1,21 @@
+{
+  "Jobs": [
+    {"id":  1, "company_name": "Gloat", "title": "Software Developer","skills":  "C++"},
+    {"id":  2, "company_name": "Gloat","title": "Python Developer","skills":  ["JAVA","Python","Creativity"]},
+    {"id":  3, "company_name": "Gloat","title": "Backend Developer","skills": "JAVA"},
+    {"id":  4, "company_name": "Gloat","title": "Backend Developer","skills":  "MICROSOFT"},
+    {"id":  5, "company_name": "Gloat","title": "Backend Developer","skills":  "Creativity"},
+    {"id":  6, "company_name": "Gloat","title": "Backend Developer","skills":  "Critical Thinking"},
+    {"id":  7, "company_name": "Gloat","title": "Backend Developer","skills":  "Collaboration"},
+    {"id":  8, "company_name": "Gloat","title": "Backend Developer","skills":  "Accounting"},
+    {"id":  9, "company_name": "Gloat","title": "Backend Developer","skills":  "Empathy"},
+    {"id":  10, "company_name": "Gloat","title": "Backend Developer","skills":  "Management"},
+    {"id":  11, "company_name": "Gloat","title": "Backend Developer","skills":  "Organization"},
+    {"id":  12, "company_name": "Gloat","title": "Frontend Developer","skills":  ["UI/UX","CSS"]},
+    {"id":  13, "company_name": "Gloat","title": "Full Stack Developer","skills":  "NODE.JS"},
+    {"id":  14, "company_name": "Gloat","title": "cloud Developer","skills":  ["AWS","AZURE"]},
+    {"id":  15, "company_name": "Gloat","title": "Backend Developer","skills":  ["AWS","AZURE"]},
+    {"id":  16, "company_name": "Gloat","title": "Backend Developer","skills":  "C"},
+    {"id":  17, "company_name": "Gloat","title": "Backend Developer","skills":  "Assembly"}
+  ]
+}

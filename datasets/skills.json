@@ -1,0 +1,21 @@
+{
+  "Skills": [
+    {"id":  1,"name":  "C++"},
+    {"id":  2,"name":  "Python"},
+    {"id":  3,"name":  "JAVA"},
+    {"id":  4,"name":  "MICROSOFT"},
+    {"id":  5,"name":  "Creativity"},
+    {"id":  6,"name":  "Critical Thinking"},
+    {"id":  7,"name":  "Collaboration"},
+    {"id":  8,"name":  "Accounting"},
+    {"id":  9,"name":  "Empathy"},
+    {"id":  10,"name":  "Management"},
+    {"id":  11,"name":  "Organization"},
+    {"id":  12,"name":  "CSS"},
+    {"id":  13,"name":  "NODE.JS"},
+    {"id":  14,"name":  "AWS"},
+    {"id":  15,"name":  "AZURE"},
+    {"id":  16,"name":  "C"},
+    {"id":  17,"name":  "Assembly"}
+  ]
+}

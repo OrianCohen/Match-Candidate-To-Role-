@@ -1,0 +1,21 @@
+{
+  "Candidates": [
+    {"id":  1, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Software Developer","skills":  ["C++"]},
+    {"id":  2, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Python Developer","skills":  ["JAVA","Python","Creativity"]},
+    {"id":  3, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Backend Developer","skills": ["JAVA"]},
+    {"id":  4, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Backend Developer","skills":  ["MICROSOFT"]},
+    {"id":  5, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Backend Developer","skills":  ["Creativity"]},
+    {"id":  6, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Backend Developer","skills":  ["Critical Thinking"]},
+    {"id":  7, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Backend Developer","skills":  ["Collaboration"]},
+    {"id":  8, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Backend Developer","skills": [ "Accounting"]},
+    {"id":  9, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Backend Developer","skills":  ["Empathy"]},
+    {"id":  10, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Backend Developer","skills":  ["Management"]},
+    {"id":  11, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Backend Developer","skills":  ["Organization"]},
+    {"id":  12, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Frontend Developer","skills":  ["UI/UX","CSS"]},
+    {"id":  13, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Full Stack Developer","skills":  ["NODE.JS"]},
+    {"id":  14, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "cloud Developer","skills":  ["AWS","AZURE"]},
+    {"id":  15, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Backend Developer","skills":  ["AWS","AZURE"]},
+    {"id":  16, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Software Developer","skills":  ["C", "JAVA", "python"]},
+    {"id":  17, "name": "Orian Cohen", "phone": "0523401420", ",city": "Ramat=Gan" ,"title": "Backend Developer","skills":  ["Assembly"]}
+  ]
+}

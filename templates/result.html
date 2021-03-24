@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Matcher Program</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  <center>
+          <h1>Result Page</h1>
+
+      <br/>
+      {% if data %}
+       {% for element in data %}
+         <br/>
+         {{ element + ':' }}
+         {{ data[element] }} <br/>
+       {% endfor %}
+      {% endif %}
+
+
+  </center>
+
+  </body>
+</html>
