@@ -43,6 +43,7 @@ def _convert_to_schema(cursor):
 
 # database functions:
 
+
 #Get a list of all candidates
 def get_all():
     return _execute("SELECT * FROM candidates", return_result=True)

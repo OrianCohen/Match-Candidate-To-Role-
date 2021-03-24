@@ -39,6 +39,7 @@ def _convert_to_schema(cursor):
     return JobsSchema().load(column_and_values, many=True)
 
 
+
 # database functions:
 
 #Get a list of all jobs
@@ -49,4 +50,5 @@ def get_all():
 #Get a list of skills by job title name
 def get(name):
     return _execute("SELECT skills FROM jobs WHERE name = {}".format(name), return_result=True)
+
 
